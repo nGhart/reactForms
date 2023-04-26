@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  background-color: rgba(215, 143, 193, 0.7);
+  }
+.App {
+  border: 5px double rgb(172, 114, 6);
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 600px;
+  width: 450px;
+  text-align: center;
+  background-color: rgba(182, 26, 136, 0.7);
+}
+.signupForm {
+  height: 550px;
+  padding: 50px 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(16, 2, 12, 0.5);
+}
+form {
+  padding: 10px;
+  font-size: 20px;
+  color: #fff ;
+  line-height: 40px;
+}
+input {
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid rgb(172, 114, 6);
+  width: 100%;
+}
+button{
+  padding: 15px;
+  margin: 40px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  font-weight: 700;
+  
+  background-color: rgba(182, 26, 136, 0.7);
+}
